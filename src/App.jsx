@@ -1,9 +1,12 @@
 import React from 'react'
 
+// pages
+import BasicTable from './pages/BasicTable'
+
 const App = () => {
   return (
-    <div>
-      App
+    <div className='w-screen h-screen overflow-x-hidden overflow-y-auto'>
+      <BasicTable />
     </div>
   )
 }
